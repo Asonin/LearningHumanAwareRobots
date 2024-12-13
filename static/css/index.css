@@ -19,8 +19,20 @@ body {
 
 
 .teaser .hero-body {
-  padding-top: 0;
+  padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+.module-title {
+  text-align: center;
+  font-size: 24px; /* 您可以自定义大小 */
+  margin-bottom: 20px;
+}
+
+.caption {
+  font-size: 14px;
+  color: #555; /* 解说文字颜色 */
+  margin-top: 5px;
 }
 
 .teaser {
@@ -109,10 +121,29 @@ body {
 }
 
 .results-carousel .item {
-  margin: 5px;
+  margin: 20px;
   overflow: hidden;
   padding: 20px;
   font-size: 0;
+}
+
+/* GIF 容器样式 */
+.gif-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* 调整 GIF 之间的间距 */
+  margin-bottom: 10px;
+}
+
+/* 每个 GIF 的样式 */
+.gif-item {
+  text-align: center;
+  width: 350px; /* 控制每个 GIF 的宽度，您可以自定义 */
+}
+
+.gif-item img {
+  width: 100%; /* 确保 GIF 宽度适应容器 */
+  height: auto; /* 保持比例 */
 }
 
 .results-carousel video {
